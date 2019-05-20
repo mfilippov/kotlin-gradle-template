@@ -2,17 +2,6 @@ plugins {
     kotlin("jvm") version "1.3.31"
 }
 
-buildscript {
-    val kotlinVersion = "1.3.31"
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-    }
-}
-
 apply(plugin = "kotlin")
 
 dependencies {
