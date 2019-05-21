@@ -5,7 +5,7 @@ plugins {
 apply(plugin = "kotlin")
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
+    compile(kotlin("stdlib-jdk8"))
 }
 
 repositories {
